@@ -1,0 +1,77 @@
+
+.mat-row:nth-child(2n+1){
+    background-color: rgb(255 245 245 / 97%);
+  }
+  .addicon{
+    width: 20px;
+    position: fixed;
+    right: 10%;
+    top: 4.5%;
+  }
+  table {
+    width: 100%;
+  }
+ .container{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .inputs{
+            display: flex;
+        }
+  .deleteicon{
+      position: fixed;
+      top:20%
+}
+  .mat-column-position {
+         
+    flex: 0 0 5% !important;
+   
+
+     width: 14% !important;
+  
+   }
+   .mat-column-title {
+         
+    flex: 0 0 8% !important;
+ 
+     width: 14% !important;
+   }
+   .mat-column-edit {
+         
+    flex: 0 0 8% !important;
+ 
+
+     width: 16% !important;
+     margin-left: -22%;
+     margin-top: 1%;
+    
+     
+   }
+  
+  .mat-column-delete {
+margin-left: 5%;
+      flex: 0 0 8% !important;
+    width: 16% !important;
+
+    
+  }
+  
+   .mat-column-status {
+         
+    flex: 0 0 3% !important;
+     word-wrap: break-word !important;
+   white-space: unset !important;
+
+    width: 22% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+     
+    word-break: break-word;
+      
+
+    
+   }
+
+
+ }

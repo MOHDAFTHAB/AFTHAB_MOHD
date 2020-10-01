@@ -1,0 +1,35 @@
+<div class="outer-container">
+ 
+    <div class="side-bar">
+        <mat-sidenav-container class="example-container" >
+            <mat-sidenav #sidenav mode="side">
+                <div class="side-data">
+                  <br><br><br>
+                    <div class="side-options">
+                        <div routerLink="/home/products" class="side-align" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}" ><mat-icon>local_parking</mat-icon> <a >Product</a></div>
+                       
+                      
+                          
+                      
+                    </div>
+                </div>
+            </mat-sidenav>
+            <mat-sidenav-content>
+                <div class="nav-bar">
+                    <div>
+                        <mat-icon   (click)="sidenav.toggle()">reorder</mat-icon>
+                    </div>
+                    <div class="right-icon-nav" >
+                        <mat-icon class="notification">notifications</mat-icon>
+                      
+                        <mat-icon class="log" >exit_to_app</mat-icon>
+
+                  
+                    </div>
+                </div>
+                <router-outlet></router-outlet>
+            </mat-sidenav-content>
+          </mat-sidenav-container>
+    </div>
+    
+</div>

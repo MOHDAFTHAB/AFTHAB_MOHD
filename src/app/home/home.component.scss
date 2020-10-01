@@ -1,0 +1,106 @@
+.element::-webkit-scrollbar { width: 0 !important }
+.mat-drawer-content{
+    padding: 10px;
+}
+.mat-sidenav{
+    min-width: 215px;
+    text-align: center;
+}
+*::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+.outer-container{
+   .side-bar{
+    .example-container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        // .mat-sidenav
+        // {
+        //     width: 200px;
+        //     height: 100%;
+        //     padding-left: 1%;
+        // }
+    
+        .side-data{
+            margin-top: 10%;
+            .side-options{
+                margin-top: 10%;
+                // :active{
+                //     background-color:lightblue;
+                //     border-left: 3px solid blue;
+                // }
+                .active-link{
+                    background-color:#fff5f5;
+                    border-left: 5px solid slateblue;
+                }
+                .side-align{
+                    display: flex;
+                    outline:0 !important;
+                      padding: 10px;
+                    align-items: center;
+                    cursor: pointer;
+                    border-bottom: 1px solid #f2f2f2;
+                  
+                    .mat-icon{
+                        margin-right: 5%;
+                    }
+                }
+                .master-list{
+                    display: flex;
+                    flex-direction: column;
+                    // margin-left: 35%;
+                    text-align: left;
+                    
+                    .hover:hover{
+                        background-color:  #647ff8d8
+                        /* #E9EDFF */
+                       }
+                    // p{
+                    //     padding: 8px;
+                    //     margin: 0;
+                    //     border-bottom: 1px solid #f2f2f2;
+                    // }
+                    
+                }
+            }
+          .logo{
+              width: 100px;
+              height: 100px;
+          }
+        }
+        .nav-bar{
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            width: 100%;
+            align-items: center;
+            .notification{
+                margin-right: 15%;
+            }
+            .sort{
+                margin-right: 15%;
+            }
+            .mat-icon{
+                cursor: pointer;
+            }
+        }
+        .right-icon-nav{
+            display: flex;
+            justify-content: flex-end;
+        }
+       
+        
+      }
+   }
+   
+}
