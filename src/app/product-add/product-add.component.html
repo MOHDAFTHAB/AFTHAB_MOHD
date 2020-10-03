@@ -1,0 +1,41 @@
+<div class="outer">
+    <form [formGroup]="addProduct" >
+    <div class="first-level">
+        <div class="first-level-left">
+
+            <mat-form-field class="form-half"floatLabel="auto" hideRequiredMarker appearance="outline">
+                <mat-label>Product Title*</mat-label>
+                <input type="text" matInput formControlName="strTitle" >
+            </mat-form-field><br>
+
+            <mat-form-field class="form-half"floatLabel="auto" hideRequiredMarker appearance="outline">
+                <mat-label>Description</mat-label>
+                <input matInput type="text" formControlName="strDescription" >
+              </mat-form-field><br>
+
+        </div>
+        <div class="first-level-right">
+
+            <mat-form-field class="form-half" floatLabel="auto" hideRequiredMarker appearance="outline">
+                <mat-label>Product ID*</mat-label>
+                <input type="text" matInput formControlName="strProductid" >
+                <mat-hint alighn="end"></mat-hint>
+            </mat-form-field><br>
+
+            <mat-form-field class="form-half" floatLabel="auto" hideRequiredMarker appearance="outline">
+                <label>Keyword*</label>
+                <input matInput type="text" formControlName="strKeyword" >
+            </mat-form-field>
+
+        </div>
+    </div>
+
+   
+
+
+  </form>
+  <div class="buttons">
+    <button class="cancel-btn">Cancel</button>
+    <button class="submit-btn" >Add product</button>
+  </div>
+</div>

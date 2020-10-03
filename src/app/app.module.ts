@@ -19,6 +19,10 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatDialogModule} from '@angular/material/dialog';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ProductsComponent } from './products/products.component';
+import { ProductAddComponent } from './product-add/product-add.component';
+import { ProductDeleteComponent } from './product-delete/product-delete.component';
+import { ProducteditComponent } from './productedit/productedit.component';
+
 
 
 @NgModule({
@@ -26,7 +30,12 @@ import { ProductsComponent } from './products/products.component';
     AppComponent,
     HomeComponent,
     LoginComponent,
-    ProductsComponent
+    ProductsComponent,
+    ProductAddComponent,
+    ProductDeleteComponent,
+    ProducteditComponent,
+
+
   ],
   imports: [
     BrowserModule,
